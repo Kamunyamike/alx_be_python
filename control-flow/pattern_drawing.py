@@ -1,7 +1,7 @@
 # Get the size of the pattern from the user
 size = int(input("Enter the size of the pattern: "))
 
-# Input validation (optional, but good practice to ensure 'size' is positive)
+# Input validation (good practice to ensure 'size' is positive)
 if size <= 0:
     print("Please enter a positive integer for the size.")
 else:

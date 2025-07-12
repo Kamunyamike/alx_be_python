@@ -1,15 +1,15 @@
 def perform_operation(num_1,num_2,operation):
-    if operation == "+":
-        print(num_1 + num_2)
-    elif operation == "-":
-        print(num_1 - num_2)
-    elif operation == "*":
-        print(num_1 * num_2)
-    elif operation == "/":
+    if operation == "add":
+        return num_1 + num_2
+    elif operation == "subtract":
+        return num_1 - num_2
+    elif operation == "multiply":
+        return num_1 * num_2
+    elif operation == "divide":
         if num_2 == 0:
-            print("Num_2 cannot have value zero! Put another value other than zero for the denominator.")
+            return "Num_2 cannot have value zero! Put another value other than zero for the denominator."
         else:
-            print(num_1 / num_2)
+            return num_1 / num_2
     else: 
-        print("Please insert a valid operation to see the outcomes!!!")
+        return "Error: Invalid operator. Please use '+', '-', '*', or '/'."
 

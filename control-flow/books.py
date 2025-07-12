@@ -1,0 +1,2 @@
+favorite_book = dict([("Title","To Kill a Mockingbird"),("Author","Harper Lee"),("Genre", "Southern Gothic, Bildungsroman"), ("Publication Year", "1960"), ("Setting", "Maycomb, Alabama, 1930s")])
+print(favorite_book["Genre"])
