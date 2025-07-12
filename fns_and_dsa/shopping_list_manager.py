@@ -34,5 +34,3 @@ def main():
 if __name__ == "__main__":
     main()
 main()
-
-#/tmp/correction/7255496186836638723287432318175711409967_5/100741/1002469/fns_and_dsa/shopping_list_manager.py doesn't contain input\(['\"]Enter the item to add: ['\"]\)
