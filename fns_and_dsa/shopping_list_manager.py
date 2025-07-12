@@ -13,7 +13,7 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            Item_to_add = input("Enter the name of the item to add: ")
+            Item_to_add = input("Enter the item to add: ")
             shopping_list.append(Item_to_add)
             pass
         elif choice == '2':
@@ -34,3 +34,5 @@ def main():
 if __name__ == "__main__":
     main()
 main()
+
+#/tmp/correction/7255496186836638723287432318175711409967_5/100741/1002469/fns_and_dsa/shopping_list_manager.py doesn't contain input\(['\"]Enter the item to add: ['\"]\)
