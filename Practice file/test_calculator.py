@@ -18,5 +18,9 @@ class TestCalc(unittest.TestCase):
     def test_square_float(self):
         result = square(2.5)
         self.assertEqual(result, 6.25)
+    def test_valid_input(self):
+        result = square(10)
+        self.assertAlmostEqual(result, 100, places = 5)
+    
 if __name__ == "__main__":
     unittest.main()
